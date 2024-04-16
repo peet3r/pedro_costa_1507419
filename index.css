@@ -89,3 +89,44 @@ body{
 
     box-shadow: 0 0 5px #000;
 }
+footer{
+    background-color: var(--bgDark);
+    color: var(--white);
+    padding: 3rem 0;
+    }
+    footer p{
+    text-align: center;
+    }
+    footer a{
+    color: var(--primary);
+    text-decoration: none;
+    }
+    footer a:hover{
+    color: var(--secondary);
+    }
+    footer .social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+    footer .social-links a{
+    margin: 0 1rem;
+    }
+    footer .social-links a i{
+    font-size: 1.5rem;
+    color: var(--white);
+    transition: all .2s ease;
+    }
+    footer .social-links a i:hover{
+    color: var(--primary);
+    }
+    footer .copy{
+    margin-top: 2rem;
+    text-align: center;
+    }
+    footer .copy p{
+    font-size: 1.2rem;
+    }
+    footer .copy p span{
+    color: var(--primary);
+}
